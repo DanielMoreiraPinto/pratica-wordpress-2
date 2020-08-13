@@ -1,4 +1,4 @@
-		<!-- Footer -->
+		<!-- O rodape que vai sempre aparecer no finalzinho -->
         <footer id="footer">
 				<div class="inner">
 					<div class="content">
@@ -31,7 +31,7 @@
 				</div>
 			</footer>
 
-		<!-- Scripts -->
+		<!-- Os codigo que funfa -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>

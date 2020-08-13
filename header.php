@@ -3,10 +3,12 @@
 	Industrious by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+
+    Aqui embaixo ta o cabecalho propriamente dito
 -->
 <html>
 	<head>
-		<title>Industrious by TEMPLATED</title>
+		<title><?php bloginfo('name').wp_title('|') ?></title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="" />
@@ -16,7 +18,7 @@
 	</head>
 	<body class="is-preload">
 
-		<!-- Header -->
+		<!-- Cabecalho propriamente visivel -->
 			<header id="header">
 				<a class="logo" href="index.html">Industrious</a>
 				<nav>
@@ -24,7 +26,7 @@
 				</nav>
 			</header>
 
-		<!-- Nav -->
+		<!-- O menu que fica aparecendo ali encima sempre pra gente poder andar -->
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>

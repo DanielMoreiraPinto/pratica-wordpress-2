@@ -2,7 +2,7 @@
     get_header();
 ?>
 
-<!-- Banner -->
+<!-- Letreiro -->
 <section id="banner">
         <div class="inner">
             <h1>Industrious</h1>
@@ -12,7 +12,7 @@
         <video autoplay loop muted playsinline src="<?php echo(get_template_directory_uri()."/images/banner.mp4") ?>"></video>
     </section>
 
-<!-- Highlights -->
+<!-- Posts ou trabalhos ou coisas a se mostrar na vitrine do site -->
     <section class="wrapper">
         <div class="inner">
             <header class="special">
@@ -78,7 +78,7 @@
         </div>
     </section>
 
-<!-- CTA -->
+<!-- Um negocio facil de ver porque ta na cor diferente -->
     <section id="cta" class="wrapper">
         <div class="inner">
             <h2>Curabitur ullamcorper ultricies</h2>
@@ -86,7 +86,7 @@
         </div>
     </section>
 
-<!-- Testimonials -->
+<!-- Fulanas e Fulanos dando opinião -->
     <section class="wrapper">
         <div class="inner">
             <header class="special">
