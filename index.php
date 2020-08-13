@@ -9,7 +9,7 @@
             <p>A responsive business oriented template with a video background<br />
             designed by <a href="https://templated.co/">TEMPLATED</a> and released under the Creative Commons License.</p>
         </div>
-        <video autoplay loop muted playsinline src="images/banner.mp4"></video>
+        <video autoplay loop muted playsinline src="<?php echo(get_template_directory_uri()."/images/banner.mp4") ?>"></video>
     </section>
 
 <!-- Highlights -->
@@ -101,7 +101,7 @@
                         </blockquote>
                         <div class="author">
                             <div class="image">
-                                <img src="images/pic01.jpg" alt="" />
+                                <img src="<?php echo(get_template_directory_uri()."/images/pic01.jpg") ?>" alt="" />
                             </div>
                             <p class="credit">- <strong>Jane Doe</strong> <span>CEO - ABC Inc.</span></p>
                         </div>
@@ -114,7 +114,7 @@
                         </blockquote>
                         <div class="author">
                             <div class="image">
-                                <img src="images/pic03.jpg" alt="" />
+                                <img src="<?php echo(get_template_directory_uri()."/images/pic03.jpg") ?>" alt="" />
                             </div>
                             <p class="credit">- <strong>John Doe</strong> <span>CEO - ABC Inc.</span></p>
                         </div>
@@ -127,7 +127,7 @@
                         </blockquote>
                         <div class="author">
                             <div class="image">
-                                <img src="images/pic02.jpg" alt="" />
+                                <img src="<?php echo(get_template_directory_uri()."/images/pic02.jpg") ?>" alt="" />
                             </div>
                             <p class="credit">- <strong>Janet Smith</strong> <span>CEO - ABC Inc.</span></p>
                         </div>
