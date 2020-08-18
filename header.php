@@ -6,6 +6,7 @@
 
     Aqui embaixo ta o cabecalho propriamente dito
 -->
+
 <html>
 	<head>
 		<title><?php bloginfo('name').wp_title('|') ?></title>
@@ -18,19 +19,23 @@
 	</head>
 	<body class="is-preload">
 
-		<!-- Cabecalho propriamente visivel -->
+		<!-- Cabecalho propriamente visivel e o menu que fica aparecendo ali 
+		encima sempre pra gente poder andar -->
+
 			<header id="header">
 				<a class="logo" href="index.html">Industrious</a>
 				<nav>
-					<a href="#menu">Menu</a>
+					<?php $args = array(
+						'theme_location' => 'primary',
+						'menu_class' => 'menu_class',
+						'container_class' => 'container_class',
+						'menu' => '',
+						'container' => 'nav',
+						'container_class' => '',
+						'container_id' => 'nav',
+						'menu_class' => '',
+						'menu_id' => 'nav'
+					); ?>
+					<?php wp_nav_menu($args); ?>
 				</nav>
 			</header>
-
-		<!-- O menu que fica aparecendo ali encima sempre pra gente poder andar -->
-			<nav id="menu">
-				<ul class="links">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="elements.html">Elements</a></li>
-					<li><a href="generic.html">Generic</a></li>
-				</ul>
-			</nav>

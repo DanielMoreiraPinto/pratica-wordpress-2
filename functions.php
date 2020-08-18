@@ -27,7 +27,7 @@
     
     /* Registra o menu que a gente quer */
 
-    register_navmenus(array(
+    register_nav_menus(array(
         'primary' => __('Primary Menu')
     ));
 
