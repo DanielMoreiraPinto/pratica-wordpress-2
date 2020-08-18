@@ -2436,6 +2436,17 @@ body {
     line-height: inherit;
     padding: 0 1.25rem;
     text-decoration: none; }
+  #header > #nav > ul > li {
+    display: inline-block;
+    margin-left: 0.5rem;
+    padding: 0.5em 1.5rem;
+    text-decoration: none;
+  }
+
+  #header > #nav > ul > li > a {
+    text-decoration: none;
+  }
+
   #header > nav > a {
     color: inherit;
     display: inline-block;

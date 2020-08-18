@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="assets/css/main.css" />
         <?php wp_head() ?>
 	</head>
+
 	<body class="is-preload">
 
 		<!-- Cabecalho propriamente visivel e o menu que fica aparecendo ali 
@@ -24,18 +25,16 @@
 
 			<header id="header">
 				<a class="logo" href="index.html">Industrious</a>
-				<nav>
-					<?php $args = array(
-						'theme_location' => 'primary',
-						'menu_class' => 'menu_class',
-						'container_class' => 'container_class',
-						'menu' => '',
-						'container' => 'nav',
-						'container_class' => '',
-						'container_id' => 'nav',
-						'menu_class' => '',
-						'menu_id' => 'nav'
-					); ?>
-					<?php wp_nav_menu($args); ?>
-				</nav>
+				<?php $args = array(
+					'theme_location' => 'primary',
+					'menu_class' => 'menu_class',
+					'container_class' => 'container_class',
+					'menu' => '',
+					'container' => 'nav',
+					'container_class' => '',
+					'container_id' => 'nav',
+					'menu_class' => '',
+					'menu_id' => 'nav'
+				); ?>
+				<?php wp_nav_menu($args); ?>
 			</header>
