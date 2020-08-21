@@ -1,4 +1,4 @@
-<!-- Essa parte ainda tô descobrindo o que faz -->
+<!-- Uma página qualquer-->
 
 <?php 
 
