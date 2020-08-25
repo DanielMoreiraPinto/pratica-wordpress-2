@@ -30,7 +30,7 @@
 					'menu_class' => 'menu_class',
 					'container_class' => 'container_class',
 					'menu' => '',
-					'container' => 'nav',
+					'container' => '',
 					'container_class' => '',
 					'container_id' => 'nav',
 					'menu_class' => '',
